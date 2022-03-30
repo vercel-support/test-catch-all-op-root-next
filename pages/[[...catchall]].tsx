@@ -30,6 +30,7 @@ export const getStaticPaths: GetStaticPaths<CatchallParsedUrlQuery> = async () =
   }
 }
 
+
 export const getStaticProps: GetStaticProps<StaticProps, CatchallParsedUrlQuery> = ({params, preview}) => {
   const {catchall} = params ?? {};
 
